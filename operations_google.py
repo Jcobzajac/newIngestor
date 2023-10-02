@@ -70,27 +70,8 @@ def get_file(file_id, file_name_local):
 
 
 
-#modify_file(creds=authentication(SCOPES), file_id_to_modify="1LDWxIcNH9M5t21sdEpqyU3bQfXLp4ry_6AAhpQtBOfI", file_name_with_new_content="state.txt")
-
-# "1LDWxIcNH9M5t21sdEpqyU3bQfXLp4ry_6AAhpQtBOfI" -- File id to modify
 
 
-
-
-############ MAIN #############
-
-
-#Get file with primary content
-
-get_file(file_id="1o9pehABzLjkWy3ZLRALdjgGFIGPLIz7uS16toTUJRxo", file_name_local="primary.txt")
-
-#Get file with summaries
-
-get_file(file_id="1LDWxIcNH9M5t21sdEpqyU3bQfXLp4ry_6AAhpQtBOfI", file_name_local="summaries.txt")
-
-# Get file with state
-
-get_file(file_id="1MmRORzi6uGslMlBrHgx2rK36HZOX7KsE-a5LXL5hqV4", file_name_local="state.txt")
 
 
 
